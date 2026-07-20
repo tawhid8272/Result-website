@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>অনলাইন রেজাল্ট পোর্টাল</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f6f9;
+            margin: 0;
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .header {
+            text-align: center;
+            background: #2e7d32;
+            color: white;
+            padding: 15px;
+            width: 100%;
+            max-width: 800px;
+            border-radius: 8px;
+            margin-bottom: 15px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+        .header h1 { margin: 0; font-size: 20px; }
+        .iframe-container {
+            width: 100%;
+            max-width: 800px;
+            height: 650px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            overflow: hidden;
+            border: 2px solid #2e7d32;
+        }
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+
+<div class="header">
+    <h1>🎓 এসএসসি ও সমমান পরীক্ষার ফলাফল পোর্টাল</h1>
+    <p style="margin: 5px 0 0 0; font-size: 14px;">নিচের ফর্মে সঠিক তথ্য দিয়ে ফলাফল সাবমিট করুন</p>
+</div>
+
+<!-- সরকারি রেজাল্ট সাইটটি আপনার সাইটের ভেতরে লোড হবে -->
+<div class="iframe-container">
+    <iframe src="https://www.educationboardresults.gov.bd" title="Result Server"></iframe>
+</div>
+
+</body>
+</html>
